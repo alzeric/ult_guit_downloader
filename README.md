@@ -1,7 +1,7 @@
 # ult_guit_download
 
 ## Usage ## 
-  *Python ult_guit_download.py <URL>*
+  *Python ult_guit_download.py https://tabs.ultimate-guitar.com/tab/EXAMPLE/EXAMPLE-SONG-TITLE-12345678*
   
 ## How to get cookies? ##
   Login to Ultimate-Guitar website, open inspector window "***Ctrl+Shift+I***" (chrome)
