@@ -37,4 +37,4 @@ or perhaps you wanna stuff me like a piggybank and throw coins at me... in that 
 
 BTC Address: 3Kq2EmoxHqhRjPkmdbe2tK5qjvkoC1etiV
 
-Hey and you keep being awesome, May the guitar/bass Rock Gods shine down on you and bath you in Musical Glory!
+Hey and you keep being awesome, May the guitar/bass Rock Gods shine down on you and bathe you in Musical Glory!
