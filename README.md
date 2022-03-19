@@ -1,4 +1,7 @@
-# ult_guit_download
+# ult_guit_downloader
+
+## What does this do? ##
+Downloads the tab file from Ultimate Guitar into a usable format for use in other software's like TuxPro, Guitar Pro, Editor on Fire (EoF) ..etc 
 
 ## PreReqs ##
 | ITEM          | Notes                                                             |
