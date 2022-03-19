@@ -8,7 +8,7 @@ Downloads the tab file from Ultimate Guitar into a usable format for use in othe
 | ------------- | ----------------------------------------------------------------- |
 | Python 3.9.10 | could work with other versions, just not tested/supported |
 | requests pkg | ```````pip install requests``````` |
-| UG Account | Tested with Premium/Paid account, could work with free, not tested |
+| UG Account | Tested with Premium/Paid account, could work with free, not tested/supported |
 | cookies.txt | Be sure to follow the instructions on *How to get cookies?* |
 
 ## Usage ## 
