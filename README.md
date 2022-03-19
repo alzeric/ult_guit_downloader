@@ -19,3 +19,6 @@
   In the console window type ***document.cookie*** and press Enter
   
   Copy the text that appears and paste it in a ***cookies.txt*** file in the same folder as this script
+
+## Security ##
+  **cookies.txt** - Be sure to keep this file safe do not share with anyone!
