@@ -1,10 +1,20 @@
 # ult_guit_download
 
+## PreReqs ##
+| ITEM          | Notes                                                             |
+| ------------- | ----------------------------------------------------------------- |
+| Python 3.9.10 | could work with other versions, just not tested/supported |
+| requests pkg | ```````pip install requests``````` |
+| UG Account | Tested with Premium/Paid account, could work with free, not tested |
+| cookies.txt | Be sure to follow the instructions on *How to get cookies?* |
+
 ## Usage ## 
   *Python ult_guit_download.py https://tabs.ultimate-guitar.com/tab/EXAMPLE/EXAMPLE-SONG-TITLE-12345678*
   
 ## How to get cookies? ##
   Login to Ultimate-Guitar website, open inspector window "***Ctrl+Shift+I***" (chrome)
+  
+  (yes, fully login, not just visiting the site as guest)
   
   In the console window type ***document.cookie*** and press Enter
   
