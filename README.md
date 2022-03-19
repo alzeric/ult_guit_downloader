@@ -27,10 +27,14 @@ Downloads the tab file from Ultimate Guitar into a usable format for use in othe
   **cookies.txt** - Be sure to keep this file safe do not share with anyone!
 
 ## Hey you! Yeh You! ##
-You're awesome for checking out this project I hope you enjoy this and any other apps/tools/scripts I create or help create.  If you're having overwhelming thoughts of gratitude and want to shower me with gifts.... 
+You're awesome for checking out this project I hope you enjoy this and any other apps/tools/scripts I create or help create.  
+
+If you're having overwhelming thoughts of gratitude and want to shower me with gifts.... 
 
 [$5 me love you long time or maybe toss me a ☕ that would actualy be pretty awesome of you!](https://www.buymeacoffee.com/Alzeric) 
+
 or perhaps you wanna stuff me like a piggybank and throw coins at me... in that case BTC can be donated here: 
+
 BTC Address: 3Kq2EmoxHqhRjPkmdbe2tK5qjvkoC1etiV
 
 Hey and you keep being awesome, May the guitar/bass Rock Gods shine down on you and bath you in Musical Glory!
