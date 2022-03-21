@@ -1,5 +1,8 @@
 # ult_guit_downloader
 
+## Join us on Discord ##
+[https://discord.gg/N6ecRsmE](https://discord.gg/N6ecRsmE)
+
 ## What does this do? ##
 Downloads the tab file from Ultimate Guitar into a usable format for use in other software's like TuxPro, Guitar Pro, Editor on Fire (EoF) ..etc 
 
