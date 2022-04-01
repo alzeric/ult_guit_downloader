@@ -4,13 +4,14 @@
 [https://discord.gg/N6ecRsmE](https://discord.gg/N6ecRsmE)
 
 ## What does this do? ##
-Downloads the tab file from Ultimate Guitar into a usable format for use in other software's like TuxPro, Guitar Pro, Editor on Fire (EoF) ..etc 
+Downloads the tab file from Ultimate Guitar into a usable format for use in other software's like TuxPro, Guitar Pro, Editor on Fire (EoF) ..etc also provides a audio download as well via youtube
 
 ## PreReqs ##
 | ITEM          | Notes                                                             |
 | ------------- | ----------------------------------------------------------------- |
 | Python 3.9.10 | could work with other versions, just not tested/supported |
 | requests pkg | ```````pip install requests``````` |
+| youtube-dl pkg | ```````pip install youtube-dl``````` |
 | UG Account | Tested with Premium/Paid account, could work with free, not tested/supported |
 | cookies.txt | Be sure to follow the instructions on *How to get cookies?* |
 
