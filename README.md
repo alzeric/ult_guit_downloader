@@ -1,7 +1,7 @@
 # ult_guit_download
 
 ## Usage ## 
-  *Python ult_guit_download.py https://tabs.ultimate-guitar.com/tab/EXAMPLE/EXAMPLE-SONG-TITLE-12345678*
+  *Python ult_guit_download.py https://tabs.ultimate-guitar.com/tab/misc-computer-games/guardians-of-the-galaxy-ghost-guitar-pro-4134175 https://www.youtube.com/watch?v=jLfePHz-xIw*
   
 ## How to get cookies? ##
   Login to Ultimate-Guitar website, open inspector window "***Ctrl+Shift+I***" (chrome)
