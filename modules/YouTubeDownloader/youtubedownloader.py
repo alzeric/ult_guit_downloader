@@ -1,5 +1,5 @@
 from youtube_dl.YoutubeDL import YoutubeDL
-import json, os
+import json, os, datetime
 
 class MyLogger(object):
     def debug(self, msg):
@@ -68,8 +68,16 @@ class YoutubeDownloader:
             print(f"Ext: {video_ext}")
             filename = f"{video_title}.{video_ext}"
             self.youtubeOptions["outtmpl"] = os.path.join("downloads", filename)
+            self.youtube_info_file(info_dict)
             print(self.youtubeOptions)
-            
+
+    def youtube_info_file(self, info_dict: str=None):
+        if info_dict:
+            video_details = f"Artist: {info_dict['artist']}\nAlbum: {info_dict['album']}\nTrack: {info_dict['track']}\nAlt Title: {info_dict['alt_title']}\nRelease Year: {info_dict['release_year']}\nDuration: {datetime.timedelta(seconds=info_dict['duration'])}\nThumbnail: {info_dict['thumbnail']}\n(Note: thumbnail most likely will not be the correct resolution for you to use as cover art)"
+            with open(os.path.join("downloads", f"{info_dict['track']}_details.txt"), 'w') as outfile:
+                outfile.write(video_details)
+                outfile.close()
+
     def download(self):
         with YoutubeDL(self.youtubeOptions) as ydl:
             ydl.download([self.videoURL])
