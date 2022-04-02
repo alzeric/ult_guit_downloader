@@ -73,7 +73,7 @@ class YoutubeDownloader:
 
     def youtube_info_file(self, info_dict: str=None):
         if info_dict:
-            video_details = f"Artist: {info_dict['artist']}\nAlbum: {info_dict['album']}\nTrack: {info_dict['track']}\nAlt Title: {info_dict['alt_title']}\nRelease Year: {info_dict['release_year']}\nDuration: {datetime.timedelta(seconds=info_dict['duration'])}\nThumbnail: {info_dict['thumbnail']}\n(Note: thumbnail most likely will not be the correct resolution for you to use as cover art)"
+            video_details = f"Artist: {info_dict['artist']}\nAlbum: {info_dict['album']}\nTrack: {info_dict['track']}\nAlt Title: {info_dict['alt_title']}\nRelease Year: {info_dict['release_year']}\nDuration: {datetime.timedelta(seconds=info_dict['duration'])}\nThumbnail: {info_dict['thumbnail']}\n(Note: thumbnail most likely will not be the correct resolution for you to use as cover art)\n(Note: if any of this information is incorrect it's due to the uploader not setting the proper data in the upload fields or it's a 3rd party uploader and not the official release)"
             with open(os.path.join("downloads", f"{info_dict['track']}_details.txt"), 'w') as outfile:
                 outfile.write(video_details)
                 outfile.close()
