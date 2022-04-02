@@ -1,6 +1,6 @@
 # ult_guit_downloader
 
-## Join us on Discord for (almost) instant support/help/interaction##
+## Join us on Discord for (almost) instant support/help/interaction ##
 [https://discord.gg/N6ecRsmE](https://discord.gg/N6ecRsmE)
 
 ## What does this do? ##
@@ -17,6 +17,8 @@ Downloads the tab file from Ultimate Guitar into a usable format for use in othe
 
 ## Usage ## 
   *Python ult_guit_download.py https://tabs.ultimate-guitar.com/tab/misc-computer-games/guardians-of-the-galaxy-ghost-guitar-pro-4134175 https://www.youtube.com/watch?v=jLfePHz-xIw*
+
+  Tip: Order of URLs does not matter
   
 ## How to get cookies? ##
   Login to Ultimate-Guitar website, open inspector window "***Ctrl+Shift+I***" (chrome)
