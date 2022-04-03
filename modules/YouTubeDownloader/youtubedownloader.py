@@ -68,12 +68,14 @@ class YoutubeDownloader:
             print(f"Ext: {video_ext}")
             filename = f"{video_title}.{video_ext}"
             self.youtubeOptions["outtmpl"] = os.path.join("downloads", filename)
-            self.youtube_info_file(info_dict)
-            print(self.youtubeOptions)
+            try:
+                self.youtube_info_file(info_dict)
+            except:
+                pass
 
     def youtube_info_file(self, info_dict: str=None):
         if info_dict:
-            video_details = f"Artist: {info_dict['artist']}\nAlbum: {info_dict['album']}\nTrack: {info_dict['track']}\nAlt Title: {info_dict['alt_title']}\nRelease Year: {info_dict['release_year']}\nDuration: {datetime.timedelta(seconds=info_dict['duration'])}\nThumbnail: {info_dict['thumbnail']}\n(Note: thumbnail most likely will not be the correct resolution for you to use as cover art)\n(Note: if any of this information is incorrect it's due to the uploader not setting the proper data in the upload fields or it's a 3rd party uploader and not the official release)"
+            video_details = f"Artist: {info_dict['artist'] if info_dict['artist'] else None}\nAlbum: {info_dict['album'] if info_dict['album'] else None}\nTrack: {info_dict['track'] if info_dict['track'] else None}\nAlt Title: {info_dict['alt_title'] if info_dict['alt_title'] else None}\nRelease Year: {info_dict['release_year'] if info_dict['release_year'] else None}\nDuration: {datetime.timedelta(seconds=info_dict['duration'])}\nThumbnail: {info_dict['thumbnail']}\n(Note: thumbnail most likely will not be the correct resolution for you to use as cover art)\n(Note: if any of this information is incorrect it's due to the uploader not setting the proper data in the upload fields or it's a 3rd party uploader and not the official release)"
             with open(os.path.join("downloads", f"{info_dict['track']}_details.txt"), 'w') as outfile:
                 outfile.write(video_details)
                 outfile.close()
