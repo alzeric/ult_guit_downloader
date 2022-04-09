@@ -19,7 +19,16 @@ Downloads the tab file from Ultimate Guitar into a usable format for use in othe
   *Python ult_guit_download.py https://tabs.ultimate-guitar.com/tab/misc-computer-games/guardians-of-the-galaxy-ghost-guitar-pro-4134175 https://www.youtube.com/watch?v=jLfePHz-xIw*
 
   Tip: Order of URLs does not matter
-  
+
+## Alternate Usage ##
+*Python ult_guit_download.py --bt*
+
+Bulk Youtube MP3 Download
+
+this mode requires a list of urls to be added to the youtube_list file
+
+this mode overrides tab and normal youtube download
+
 ## How to get cookies? ##
   Login to Ultimate-Guitar website, open inspector window "***Ctrl+Shift+I***" (chrome)
   
